@@ -1,8 +1,8 @@
 package com.cognizant.truyum.util;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
+import java.util.Date;
 public class Dateutil {
 public static Date convertToDate(String date) throws Exception
 {

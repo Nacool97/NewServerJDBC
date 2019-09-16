@@ -1,8 +1,7 @@
 package com.cognizant.truyum.model;
 import java.text.SimpleDateFormat;
-import java.util.*;
 
-
+import java.util.Date;
 import com.cognizant.truyum.util.Dateutil;
 @SuppressWarnings("unused")
 public class MenuItem {
@@ -16,7 +15,7 @@ public class MenuItem {
 	
 	
 	public MenuItem(long id, String name, String category, float price, boolean active, boolean freeDelivery,
-			Date dateOflaunch) {
+			java.util.Date date) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -24,7 +23,7 @@ public class MenuItem {
 		this.price = price;
 		this.active = active;
 		this.freeDelivery = freeDelivery;
-		this.dateOflaunch=dateOflaunch;
+		this.dateOflaunch=date;
 	}
 
 	public MenuItem() {
